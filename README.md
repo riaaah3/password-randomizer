@@ -13,8 +13,18 @@ every time the "Generate Password" button is clicked.
 ## Installation
 
 To utilize this password randomizer,
-a user clicks the "Generate Password" button
-and the generator will produce an 8 character randomized password.
+a user clicks the "Generate Password" button.
+The application will then prompt the user with a series of questions,
+"Enter the length of the password. (8-128 Characters)"
+"Include lowercase letters?"
+"Include uppercase letters?"
+"Include numbers?"
+"Include special characters?"
+The generator will then give you the randomized password, given the criteria is met.
+
+Note ** If a user clicks "Cancel" instead of "Ok" to the above prompts, the generator will
+return an "Invalid" message and the user will have to restart the generator.
+
 
 ## Usage
 
